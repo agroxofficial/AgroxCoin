@@ -2,6 +2,8 @@ AgroxCoin Coin
  
 POS/MASTERNODE
  
+ ![Image description](http://66.42.42.97/img/1.png)
+ 
  AgroxCoin Core (fork of PIVX) integration/staging repository
 ======================================
 
