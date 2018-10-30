@@ -1,0 +1,26 @@
+# /etc/conf.d/agroxd: config file for /etc/init.d/agroxd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/agrox/agrox.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/agroxd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/agroxd.pid"
+
+# Where to write agroxd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/agroxd"
+
+# User and group to own agroxd process
+#BITCOIND_USER="agrox"
+#BITCOIND_GROUP="agrox"
+
+# Path to agroxd executable
+#BITCOIND_BIN="/usr/bin/agroxd"
+
+# Nice value to run agroxd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

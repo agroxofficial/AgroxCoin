@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=AGXcoin
+Comment=AGXcoin P2P Cryptocurrency
+Exec=agrox-qt %u
+Terminal=false
+Type=Application
+Icon=agrox128
+MimeType=x-scheme-handler/agrox;
+Categories=Office;Finance;
+Name[en_US]=agrox-qt.desktop

@@ -1,0 +1,26 @@
+[Unit]
+Description=AGROX's distributed currency daemon
+After=network.target
+
+[Service]
+User=agrox
+Group=agrox
+
+Type=forking
+PIDFile=/var/lib/agroxd/agroxd.pid
+
+ExecStart=/usr/bin/agroxd -daemon -pid=/var/lib/agroxd/agroxd.pid \
+          -conf=/etc/agrox/agrox.conf -datadir=/var/lib/agroxd
+
+ExecStop=-/usr/bin/agrox-cli -conf=/etc/agrox/agrox.conf \
+         -datadir=/var/lib/agroxd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
