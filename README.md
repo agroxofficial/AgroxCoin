@@ -1,4 +1,4 @@
-AGX Coin
+AgroxCoin Coin
  
 POS/MASTERNODE
  
@@ -42,16 +42,16 @@ Demon status:
     agrox-cli getinfo
     agrox-cli mnsync status
  
+ 
 
 
-
-
-FEATURES
-Coin Ticker: AGX
-Block Time: 1 min
-Masternode Collateral: 1000 AGX
-Total Supply:  21,000,000 AGX
-Premine: 197,000 AGX
-Staking Time: 24 hours
+FEATURES:
+ 
+	Coin Ticker: AGX
+	Block Time: 1 min
+	Masternode Collateral: 1000 AGX
+	Total Supply:  21,000,000 AGX
+	Premine: 197,000 AGX
+	Staking Time: 24 hours
 
  
