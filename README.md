@@ -2,7 +2,7 @@ AgroxCoin Coin
  
 POS/MASTERNODE
  
- ![Image description](http://66.42.42.97/img/1.png)
+ 
  
  AgroxCoin Core (fork of PIVX) integration/staging repository
 ======================================
@@ -55,5 +55,18 @@ FEATURES:
 	Total Supply:  21,000,000 AGX
 	Premine: 197,000 AGX
 	Staking Time: 24 hours
+	
+Reward Diagram:
+
+	Listed below is the block reward distribution table for AGX masternode owners and
+	non-masternode owners, whom have their wallets open for staking. With each block a
+	different node is randomly selected and rewarded. The ‘minted’ block rewards are
+	distributed on a sliding percentage scale between masternode owners and staked owners to
+	create a fair distribution of coins. Be sure to read the AGX whitepaper for more details on
+	masternode and staking.	
+	
+![Image description](http://66.42.42.97/img/1.png)
+
+![Image description](http://66.42.42.97/img/2.png)
 
  
