@@ -4,10 +4,10 @@ POS/MASTERNODE
  
  
  
- AgroxCoin Core (fork of PIVX) integration/staging repository
+ agroXCoin Core (fork of PIVX) integration/staging repository
 ======================================
 
-Quick installation of the AgroxCoin daemon under linux. See detailed instructions there [build-unix.md](build-unix.md)
+Quick installation of the agroXCoin daemon under linux. See detailed instructions there [build-unix.md](build-unix.md)
 
 Installation of libraries (using root user):
 
@@ -20,8 +20,8 @@ Installation of libraries (using root user):
 Cloning the repository and compiling (use any user with the sudo group):
 
     cd
-    git clone https://github.com/agroxofficial/AgroxCoin.git
-    cd AgroxCoin
+    git clone https://github.com/agroxofficial/agroX.git
+    cd agroX
     ./autogen.sh
     ./configure
     sudo make install
