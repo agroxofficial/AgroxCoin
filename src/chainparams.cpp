@@ -54,7 +54,10 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-    (0, uint256("0x0000005d29b75a7467572d503bdc0fee2fe8418f9d19261d18efb9d2736f21e1"));
+    (0, uint256("0x0000005d29b75a7467572d503bdc0fee2fe8418f9d19261d18efb9d2736f21e1")),
+(1000, uint256("0x0b118840fcbcca2d31cec7783c4567edcf3461c078eb1e557e179405e67648ae")),
+(3000, uint256("0x2e5a74e5c18bcf30ee3d98997806f6b5946ac01a8e4f3c52c66985bcc272e6ae")),
+(5000, uint256("0x6606084144f2c2ecb401f7190be2ba5a50969dbb41813885d323e8206128d9fe"));
 
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
@@ -138,12 +141,12 @@ public:
         assert(genesis.hashMerkleRoot == uint256("0x71cd72ceed15e7e4a150a814e64b132c73fd454776cd84f5c6a59019ec58de02"));
 
         // DNS Seeding
-		vSeeds.push_back(CDNSSeedData("45.76.48.246", "45.76.48.246"));     // Single node address
-		vSeeds.push_back(CDNSSeedData("149.28.174.39", "149.28.174.39"));       // Single node address
-		vSeeds.push_back(CDNSSeedData("95.179.203.97", "95.179.203.97"));         // Single node address
-		vSeeds.push_back(CDNSSeedData("63.209.35.164", "63.209.35.164"));         // Single node address
-		vSeeds.push_back(CDNSSeedData("207.148.6.29", "207.148.6.29"));         // Single node address
-		vSeeds.push_back(CDNSSeedData("149.28.94.112", "149.28.94.112"));         // Single node address
+		vSeeds.push_back(CDNSSeedData("178.128.155.236", "178.128.155.236"));     // Single node address
+		vSeeds.push_back(CDNSSeedData("157.230.139.197", "157.230.139.197"));       // Single node address
+		vSeeds.push_back(CDNSSeedData("142.93.131.167", "142.93.131.167"));         // Single node address
+		vSeeds.push_back(CDNSSeedData("209.97.175.7", "209.97.175.7"));         // Single node address
+		vSeeds.push_back(CDNSSeedData("206.189.113.95", "206.189.113.95"));         // Single node address
+		vSeeds.push_back(CDNSSeedData("104.248.137.238", "104.248.137.238"));         // Single node address
 
 		base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 23);
 		base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 13);
