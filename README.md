@@ -4,7 +4,7 @@ POS/MASTERNODE
  
  
  
- agroXCoin Core (fork of PIVX) integration/staging repository
+ agroXCoin Core  integration/staging repository
 ======================================
 
 Quick installation of the agroXCoin daemon under linux. See detailed instructions there [build-unix.md](build-unix.md)
